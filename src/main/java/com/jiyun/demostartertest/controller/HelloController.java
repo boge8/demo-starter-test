@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloController {
     @Autowired
     HelloService helloService;
-    @GetMapping("/h1")
+    @GetMapping("/h11")
     public String h1(HttpServletResponse response){
         String say = helloService.say();
         return say;
